@@ -1,0 +1,104 @@
+header{
+    background-color: rgb(105, 131, 218);
+}
+nav{
+    height: 30px;
+    background-color: white;
+}
+.class{
+    border: white;
+    height: 30px;
+   
+}
+.class:hover{
+    background-color: rgb(73, 166, 203);
+}
+body{
+    background-color: rgb(105, 131, 218);
+    margin: 0 auto;
+    /* display: inline-block; */
+}
+/* *{
+    box-sizing: border-box;
+} */
+#active{
+    background-color: rgb(107, 184, 214);
+}
+.input{
+float: right;
+margin: 3px;
+}
+.img{
+width: 200px;
+height: 150px;
+border-radius: 10px;
+}
+main{
+padding: 20px;
+}
+
+footer{
+    background-color: hsl(0, 0%, 14%);
+    height:500px;
+   
+    padding: 40px;
+   
+}
+.write{
+    color: white;
+  
+}
+.div1{
+   float: left;
+   width: 90px;
+   height: 150px;
+   margin: 20;
+   margin-left: 90px;
+
+}
+.input2{
+    width: 150px;
+    height: 35px;
+   margin-top: 30px;
+   float:left;
+  
+}
+.button{
+   
+    background-color: crimson;
+ width: 60px;
+ height: 40px;
+ margin-top: 30px;
+ margin-left: 3px;
+ border-radius: 5px;
+}
+.write:hover{
+ color: crimson;
+}
+.button:hover{
+    background-color:blue ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px;
+}
+.div2{
+    float: left;
+    width: 90px;
+    height: 150px;
+    margin-left: 40px;
+    
+ 
+}
+.div3{
+    float: left;
+    width: 250px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width:600) {
+ main, header,nav{width:100%;}
+
+}
+@media  screen and ( max-width:600) {
+.div1,.div2,.div3{width: 50%;}
+}
